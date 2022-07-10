@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Game 2048 </title>
+        <link rel="stylesheet" href="2048.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="head">
+                <div class="title">
+                    <h1>2048</h1>
+                </div>
+                <div class="score-container">
+                    <div class="score">
+                        <span class="pr">SCORE</span>
+                        <span id="scoreNow">0</span>
+                    </div>
+                    <div class="best-score">
+                        <span class="pr">BEST</span>
+                        <span id="BEST">0</span>
+                    </div>
+                </div>
+            </div>
+            <div class="intro">
+                 <div class="sub">
+                    <h2>Play 2048 Game Online</h2>
+                </div>
+                <div class="fight">
+                    <h2>Join and enjoy</h2>
+                </div>
+            </div>   
+            <button class="restart" onclick=location.reload()>New Game</button>
+            <div id="board">
+                <!-- <span class="loser">Game over !</span>
+                <button class="retry" onclick= location.reload()>Try again</button> -->
+            </div>
+        </div>
+        <script src="2048.js"></script>
+    </body>
+</html>
